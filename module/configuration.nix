@@ -46,6 +46,8 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   programs.zsh.enable = true;
+  programs.fish.enable = true;
+  programs.hyprland.enable = true;
 
   security.sudo.enable = true;
   security.sudo.wheelNeedsPassword = false;
@@ -58,6 +60,8 @@
   services.xserver.displayManager.autoLogin.enable = true;
   services.xserver.layout = "us";
   services.xserver.xkbVariant = "";
+
+# TODO: add hyprland
 
   # Enable CUPS to print documents.
   #services.printing.enable = true;

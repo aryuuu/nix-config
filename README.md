@@ -1,3 +1,7 @@
+# nix-config
+
+My nix system configuration
+
 ## How to use
 
 1. Add the following to `/etc/nixos/configuration.nix` to enable `nix-command` and `flakes` features:
