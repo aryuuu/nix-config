@@ -61,6 +61,8 @@ in
           zathura
           pass
           ponymix
+          xdg-desktop-portal-hyprland
+          xdg-desktop-portal
 
           # development utils
           kubectl
