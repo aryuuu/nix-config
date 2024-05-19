@@ -83,7 +83,6 @@ in
           swaybg
           polkit_gnome
           wf-recorder
-          rofi
           rofi-wayland
           networkmanager_dmenu
           waybar
