@@ -25,8 +25,8 @@
 
     signing = {
       signByDefault = true;
-      key = ""
-    }
+      key = "";
+    };
   };
 
   wayland.windowManager.hyprland = {
