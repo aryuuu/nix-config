@@ -72,7 +72,6 @@ in
           aws-vault
           terraform
 
-
           # desktop util
           grip
           slurp
@@ -124,7 +123,7 @@ in
         services.xserver.displayManager.sddm.enable = enabledDesktopPlasma5;
 
         users.users."${username}" = {
-          extraGroups = ["networkmanager" "wheel"];
+          extraGroups = ["networkmanager" "wheel" "docker"];
           home = "/home/${username}";
           isNormalUser = true;
           password = password;
